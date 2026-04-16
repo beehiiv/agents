@@ -1,0 +1,12 @@
+# Codex CLI project-scoped config for beehiiv/agents.
+#
+# Codex is MCP-based — it does not auto-discover SKILL.md files like Claude Code
+# does. This config registers the beehiiv remote HTTP MCP so Codex sessions in
+# this repo can call beehiiv tools. Skill-style guidance for Codex users lives
+# in AGENTS.md at the repo root (added when the first real skills ship).
+#
+# Codex requires the project to be trusted before it reads this file.
+
+[mcp_servers.beehiiv]
+url = "https://mcp.beehiiv.com/mcp"
+enabled = true

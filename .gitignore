@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude Code local session state (per-user, not shared)
+.claude/settings.local.json
+
+# Logs and caches
+*.log
+node_modules/
+.keep

@@ -1,0 +1,19 @@
+{
+  "name": "beehiiv",
+  "version": "0.1.0",
+  "description": "beehiiv skills for AI agents",
+  "author": {
+    "name": "beehiiv",
+    "email": "support@beehiiv.com"
+  },
+  "homepage": "https://developers.beehiiv.com",
+  "repository": "https://github.com/beehiiv/agents",
+  "license": "MIT",
+  "keywords": ["beehiiv"],
+  "mcpServers": {
+    "beehiiv": {
+      "type": "http",
+      "url": "https://mcp.beehiiv.com/mcp"
+    }
+  }
+}
