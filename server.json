@@ -1,0 +1,28 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.beehiiv/beehiiv",
+  "title": "beehiiv",
+  "description": "Manage beehiiv newsletters, posts, websites, podcasts, community, subscribers, and analytics.",
+  "version": "0.1.0",
+  "websiteUrl": "https://www.beehiiv.com",
+  "icons": [
+    {
+      "src": "https://media.beehiiv.com/www/logo_dark.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "1000x1000"
+      ]
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/beehiiv/agents",
+    "source": "github",
+    "id": "1212890297"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.beehiiv.com/mcp"
+    }
+  ]
+}
