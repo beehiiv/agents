@@ -1,0 +1,50 @@
+{
+  "name": "beehiiv",
+  "version": "0.1.0",
+  "description": "beehiiv newsletter, website, podcast and community platform. Draft and publish posts, build website pages, manage subscribers and segments, run automations, publish podcast episodes, moderate communities, and read analytics.",
+  "author": {
+    "name": "beehiiv",
+    "email": "support@beehiiv.com",
+    "url": "https://www.beehiiv.com"
+  },
+  "homepage": "https://developers.beehiiv.com",
+  "repository": "https://github.com/beehiiv/agents",
+  "license": "MIT",
+  "keywords": [
+    "beehiiv",
+    "newsletter",
+    "email",
+    "publishing",
+    "website",
+    "podcast",
+    "community",
+    "cms",
+    "mcp"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "beehiiv",
+    "developerName": "beehiiv",
+    "shortDescription": "Publish newsletters, websites, podcasts and communities from Codex",
+    "longDescription": "Work against your beehiiv workspace directly. Draft, edit and publish posts and post templates. Build website pages, sections and themes. Create podcast shows and episodes. Run community channels, posts and moderation. Build automation journeys and emails. Manage subscribers, segments, newsletter lists and subscribe forms. Handle products, tiers, offers and the ad and sponsor networks. Read publication, website, post and podcast analytics.",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://www.beehiiv.com",
+    "privacyPolicyURL": "https://www.beehiiv.com/privacy",
+    "termsOfServiceURL": "https://www.beehiiv.com/tou",
+    "defaultPrompt": [
+      "Draft a post from these notes and set the subject line",
+      "Show me which posts drove the most subscriber clicks last month",
+      "Build a welcome automation for new free subscribers",
+      "Add a pricing page to my website and link it from the nav"
+    ],
+    "brandColor": "#3a43c8",
+    "composerIcon": "../../assets/logo.svg",
+    "logo": "../../assets/logo.svg",
+    "screenshots": []
+  }
+}
