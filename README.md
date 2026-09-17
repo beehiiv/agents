@@ -89,7 +89,7 @@ publications you can already reach.
   [Settings → Workspace → MCP](https://app.beehiiv.com/settings/workspace/mcp).
 
 If MCP is off for your workspace, tool calls return a permission error. See
-[How to access the beehiiv MCP](https://www.beehiiv.com/support/article/39255979546263-how-to-access-the-beehiiv-mcp-to-connect-your-ai-tools)
+[Getting started with the beehiiv MCP](https://www.beehiiv.com/support/article/39255979546263-how-to-access-the-beehiiv-mcp-to-connect-your-ai-tools)
 for the current plan requirements.
 
 Some tool groups are gated separately, so the tools an agent sees depend on your plan and
