@@ -10,14 +10,17 @@ Codex, plus the official MCP registry entry. They all point at the same hosted s
 
 Once connected, the agent works against your beehiiv workspace directly:
 
-- **Posts.** Draft, edit, duplicate and publish posts and post templates. Read post content,
-  stats, clicks, comments and per-subscriber engagement.
+- **Posts.** Draft, edit and duplicate posts and post templates. Read post content, stats,
+  clicks, comments and per-subscriber engagement. Publishing and sending stay human actions in
+  beehiiv, so the agent prepares the post and you press send.
 - **Websites.** Build and edit site pages, sections and themes. Work with site templates,
   redirects and subscribe forms.
 - **Communities.** Create channels, publish and pin posts, moderate reports, manage members and
   roles, send invites and direct messages, read community metrics.
-- **Podcasts.** Create shows and episodes, upload audio, read transcripts and episode stats.
-- **Automations.** Build journeys, steps, triggers and automation emails, including A/B variants.
+- **Podcasts.** Create shows and episodes, upload audio, schedule episodes, read transcripts
+  and episode stats.
+- **Automations.** Build journeys, steps, triggers and automation emails, including A/B
+  variants. Activating an automation stays a human action in the editor.
 - **Audience.** Manage subscriptions, segments, tags, custom fields, newsletter lists and signup
   flows.
 - **Monetisation.** Products, tiers, premium offers, orders, paywalls, the ad network and the
@@ -31,6 +34,17 @@ The server also documents itself. Ask the agent to call `search_documentation`,
 authoring, page authoring, site design and community authoring rather than guessing.
 
 ## Install
+
+### Claude
+
+beehiiv is in the Claude connector directory. Add it from the
+[beehiiv connector](https://claude.com/connectors/beehiiv) page, then sign in when prompted.
+
+### ChatGPT
+
+beehiiv is in the shared ChatGPT and Codex plugin directory. Add it from the
+[beehiiv plugin](https://chatgpt.com/plugins/plugin_asdk_app_6a999c9511808191affcabcf3962c9d1)
+page.
 
 ### Claude Code and Cursor
 
@@ -53,7 +67,8 @@ gemini extensions install https://github.com/beehiiv/agents
 
 ### Codex
 
-Run `/plugins`, select **beehiiv**, then choose **Install Plugin**.
+Run `/plugins`, select **beehiiv**, then choose **Install Plugin**. Codex and ChatGPT share
+one plugin directory, so installing in either place covers both.
 
 Or add the server to `~/.codex/config.toml` by hand:
 
@@ -89,7 +104,7 @@ publications you can already reach.
   [Settings → Workspace → MCP](https://app.beehiiv.com/settings/workspace/mcp).
 
 If MCP is off for your workspace, tool calls return a permission error. See
-[How to access the beehiiv MCP](https://www.beehiiv.com/support/article/39255979546263-how-to-access-the-beehiiv-mcp-to-connect-your-ai-tools)
+[Getting started with the beehiiv MCP](https://www.beehiiv.com/support/article/39255979546263-how-to-access-the-beehiiv-mcp-to-connect-your-ai-tools)
 for the current plan requirements.
 
 Some tool groups are gated separately, so the tools an agent sees depend on your plan and
