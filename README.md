@@ -10,14 +10,17 @@ Codex, plus the official MCP registry entry. They all point at the same hosted s
 
 Once connected, the agent works against your beehiiv workspace directly:
 
-- **Posts.** Draft, edit, duplicate and publish posts and post templates. Read post content,
-  stats, clicks, comments and per-subscriber engagement.
+- **Posts.** Draft, edit and duplicate posts and post templates. Read post content, stats,
+  clicks, comments and per-subscriber engagement. Publishing and sending stay human actions in
+  beehiiv, so the agent prepares the post and you press send.
 - **Websites.** Build and edit site pages, sections and themes. Work with site templates,
   redirects and subscribe forms.
 - **Communities.** Create channels, publish and pin posts, moderate reports, manage members and
   roles, send invites and direct messages, read community metrics.
-- **Podcasts.** Create shows and episodes, upload audio, read transcripts and episode stats.
-- **Automations.** Build journeys, steps, triggers and automation emails, including A/B variants.
+- **Podcasts.** Create shows and episodes, upload audio, schedule episodes, read transcripts
+  and episode stats.
+- **Automations.** Build journeys, steps, triggers and automation emails, including A/B
+  variants. Activating an automation stays a human action in the editor.
 - **Audience.** Manage subscriptions, segments, tags, custom fields, newsletter lists and signup
   flows.
 - **Monetisation.** Products, tiers, premium offers, orders, paywalls, the ad network and the
