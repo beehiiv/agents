@@ -35,6 +35,17 @@ authoring, page authoring, site design and community authoring rather than guess
 
 ## Install
 
+### Claude
+
+beehiiv is in the Claude connector directory. Add it from the
+[beehiiv connector](https://claude.com/connectors/beehiiv) page, then sign in when prompted.
+
+### ChatGPT
+
+beehiiv is in the shared ChatGPT and Codex plugin directory. Add it from the
+[beehiiv plugin](https://chatgpt.com/plugins/plugin_asdk_app_6a999c9511808191affcabcf3962c9d1)
+page.
+
 ### Claude Code and Cursor
 
 ```
@@ -56,7 +67,8 @@ gemini extensions install https://github.com/beehiiv/agents
 
 ### Codex
 
-Run `/plugins`, select **beehiiv**, then choose **Install Plugin**.
+Run `/plugins`, select **beehiiv**, then choose **Install Plugin**. Codex and ChatGPT share
+one plugin directory, so installing in either place covers both.
 
 Or add the server to `~/.codex/config.toml` by hand:
 
