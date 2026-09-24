@@ -1,7 +1,7 @@
 {
   "name": "beehiiv",
   "version": "0.1.0",
-  "description": "beehiiv newsletter, website, podcast and community platform. Draft and publish posts, build website pages, manage subscribers and segments, run automations, publish podcast episodes, moderate communities, and read analytics.",
+  "description": "beehiiv newsletter, podcast and community platform. Draft and edit posts, manage subscribers and segments, set up automations, schedule podcast episodes, moderate communities, and read analytics.",
   "mcpServers": {
     "beehiiv": {
       "httpUrl": "https://mcp.beehiiv.com/mcp",

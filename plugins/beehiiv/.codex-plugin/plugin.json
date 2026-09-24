@@ -1,7 +1,7 @@
 {
   "name": "beehiiv",
   "version": "0.1.0",
-  "description": "beehiiv newsletter, website, podcast and community platform. Draft and publish posts, build website pages, manage subscribers and segments, run automations, publish podcast episodes, moderate communities, and read analytics.",
+  "description": "beehiiv newsletter, podcast and community platform. Draft and edit posts, manage subscribers and segments, set up automations, schedule podcast episodes, moderate communities, and read analytics.",
   "author": {
     "name": "beehiiv",
     "email": "support@beehiiv.com",
@@ -25,8 +25,8 @@
   "interface": {
     "displayName": "beehiiv",
     "developerName": "beehiiv",
-    "shortDescription": "Publish newsletters, websites, podcasts and communities from Codex",
-    "longDescription": "Work against your beehiiv workspace directly. Draft, edit and publish posts and post templates. Build website pages, sections and themes. Create podcast shows and episodes. Run community channels, posts and moderation. Build automation journeys and emails. Manage subscribers, segments, newsletter lists and subscribe forms. Handle products, tiers, offers and the ad and sponsor networks. Read publication, website, post and podcast analytics.",
+    "shortDescription": "Draft newsletters and run podcasts and communities from Codex",
+    "longDescription": "Work against your beehiiv workspace directly. Draft and edit posts and post templates; you press send in beehiiv. Create podcast shows and schedule episodes. Run community channels, posts and moderation. Build automation journeys and emails; you activate them in beehiiv. Manage subscribers, segments, newsletter lists and subscribe forms. Handle products, tiers, offers and the ad and sponsor networks. Read publication, website, post and podcast analytics.",
     "category": "Productivity",
     "capabilities": [
       "Interactive",
@@ -40,11 +40,11 @@
       "Draft a post from these notes and set the subject line",
       "Show me which posts drove the most subscriber clicks last month",
       "Build a welcome automation for new free subscribers",
-      "Add a pricing page to my website and link it from the nav"
+      "Create a segment of subscribers who opened my last three issues"
     ],
     "brandColor": "#3a43c8",
-    "composerIcon": "../../assets/logo.svg",
-    "logo": "../../assets/logo.svg",
+    "composerIcon": "../../assets/logo-square.png",
+    "logo": "../../assets/logo-square.png",
     "screenshots": []
   }
 }

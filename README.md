@@ -13,8 +13,6 @@ Once connected, the agent works against your beehiiv workspace directly:
 - **Posts.** Draft, edit and duplicate posts and post templates. Read post content, stats,
   clicks, comments and per-subscriber engagement. Publishing and sending stay human actions in
   beehiiv, so the agent prepares the post and you press send.
-- **Websites.** Build and edit site pages, sections and themes. Work with site templates,
-  redirects and subscribe forms.
 - **Communities.** Create channels, publish and pin posts, moderate reports, manage members and
   roles, send invites and direct messages, read community metrics.
 - **Podcasts.** Create shows and episodes, upload audio, schedule episodes, read transcripts
@@ -31,7 +29,7 @@ Once connected, the agent works against your beehiiv workspace directly:
 
 The server also documents itself. Ask the agent to call `search_documentation`,
 `read_documentation`, or any of the `learn_*` tools, and it fetches current guidance on post
-authoring, page authoring, site design and community authoring rather than guessing.
+authoring and community authoring rather than guessing.
 
 ## Install
 
