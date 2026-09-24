@@ -22,5 +22,5 @@
     "mcp"
   ],
   "mcpServers": "./.mcp.json",
-  "logo": "../../assets/logo.svg"
+  "logo": "../../assets/logo-square.png"
 }

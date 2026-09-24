@@ -43,8 +43,8 @@
       "Add a pricing page to my website and link it from the nav"
     ],
     "brandColor": "#3a43c8",
-    "composerIcon": "../../assets/logo.svg",
-    "logo": "../../assets/logo.svg",
+    "composerIcon": "../../assets/logo-square.png",
+    "logo": "../../assets/logo-square.png",
     "screenshots": []
   }
 }
