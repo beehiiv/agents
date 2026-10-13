@@ -31,6 +31,13 @@ The server also documents itself. Ask the agent to call `search_documentation`,
 `read_documentation`, or any of the `learn_*` tools, and it fetches current guidance on post
 authoring and community authoring rather than guessing.
 
+## Skills
+
+The plugin also ships skills for the jobs publishers ask for most: getting started and setting up
+a new publication, performance and revenue reports, unsubscribe spikes, automation drop-off, media kits, segments, post edits and upgrade
+campaigns. See [plugins/beehiiv/README.md](plugins/beehiiv/README.md) for the full list. Clients
+that support Agent Skills load them with the plugin; the others get the MCP server alone.
+
 ## Install
 
 ### Claude
