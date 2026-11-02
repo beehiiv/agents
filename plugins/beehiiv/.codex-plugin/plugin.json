@@ -43,8 +43,8 @@
       "Create a segment of subscribers who opened my last three issues"
     ],
     "brandColor": "#3a43c8",
-    "composerIcon": "../../assets/logo-square.png",
-    "logo": "../../assets/logo-square.png",
+    "composerIcon": "./logo-square.png",
+    "logo": "./logo-square.png",
     "screenshots": []
   }
 }
