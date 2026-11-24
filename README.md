@@ -33,10 +33,14 @@ authoring and community authoring rather than guessing.
 
 ## Skills
 
-The plugin also ships skills for the jobs publishers ask for most: getting started and setting up
-a new publication, performance and revenue reports, unsubscribe spikes, automation drop-off, media kits, segments, post edits and upgrade
-campaigns. See [plugins/beehiiv/README.md](plugins/beehiiv/README.md) for the full list. Clients
-that support Agent Skills load them with the plugin; the others get the MCP server alone.
+The plugin also ships 20 skills for the jobs publishers ask for most: getting started and
+setting up a new publication, growing the list (promo posts, lead magnets, welcome emails,
+newsletter swaps and first products), performance and revenue reports, sponsor media kits,
+unsubscribe spikes, automation drop-off, win-back campaigns, pre-send checks, segments, post
+drafts and edits, upgrade campaigns, newsletter branding, subscribe forms, website design, edits
+and audits, and image alt text. See [plugins/beehiiv/README.md](plugins/beehiiv/README.md) for
+the full list. Clients that support Agent Skills load them with the plugin; the others get the
+MCP server alone.
 
 ## Install
 

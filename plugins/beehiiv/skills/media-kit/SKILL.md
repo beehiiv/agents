@@ -9,7 +9,7 @@ These are instructions for you to carry out now, in this conversation, using the
 
 Give the publisher a one-page kit they can send to a sponsor today, where every number can be checked.
 
-Gather audience size and engagement for the last four weeks, growth over recent months, where web readers are and what they read, acquisition sources, and past advertisers from ad network reports.
+Gather audience size and engagement for the last four weeks (`get_publication_stats`), growth over recent months (`get_subscriber_growth`), top posts (`list_posts`, `get_post_stats_batch`), where web readers are and what they read (`get_website_analytics_breakdown`), acquisition by channel (`get_analytics_breakdown`, metric `subscribes`, dimension `source`; label or drop rows for the publication's own domain), and past advertisers from ad network reports (`list_ad_reports`).
 
 Sponsors weigh reach, engagement, fit, and trust, so lead with those:
 

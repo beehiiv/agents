@@ -9,7 +9,7 @@ These are instructions for you to carry out now, in this conversation, using the
 
 Give an accurate earnings breakdown with the detail a finance check needs.
 
-Get the publication's earnings for the requested period, defaulting to the last four weeks, or the exact dates if they give them. For ad network revenue, also list the individual ad reports in the same window, so each advertiser, post and amount is visible along with whether it has been paid.
+Get the publication's earnings for the requested period (`get_earnings`), defaulting to the last four weeks, or the exact dates if they give them. For ad network revenue, also list the individual ad reports in the same window (`list_ad_reports`), so each advertiser, post and amount is visible along with whether it has been paid.
 
 Shape the answer like this:
 
