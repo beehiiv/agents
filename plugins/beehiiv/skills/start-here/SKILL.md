@@ -9,10 +9,10 @@ These are instructions for you to carry out now, in this conversation, using the
 
 Give the publisher one recommended next task, why it suits them, and an offer to start it.
 
-1. **Check the account, change nothing.** Find the publication, and ask which one if there are several. Check the subscriber count, published posts, paid tiers, earnings, and live automations.
+1. **Check the account, change nothing.** Find the publication (`list_publications`), and ask which one if there are several. Check the subscriber count (`get_publication_stats`), published posts (`list_posts`), paid tiers (`list_tiers`), earnings (`get_earnings`), and live automations (`list_automations`).
 2. **Work out where they are.** Pick the stage that fits best: starting from zero (no posts sent, few subscribers), moving from another platform, publishing but not growing (posts going out, subscriber count flat), or earning (paid tiers, ad network, or sponsors). If the account has no posts and no subscribers, ask whether they already have a newsletter or list somewhere else.
 3. **Recommend one task.** Give one line on why, using their own numbers.
    - **Starting from zero or moving from another platform:** get the newsletter ready for its first send (onboarding).
    - **Publishing but not growing:** see which posts worked and what to write next (performance-report).
    - **Earning:** see where the money comes from (revenue-report).
-4. **Offer the rest.** List at most three other things you can help with later, one line each, and ask what they would like to do. Run nothing until they choose. Mention a paid plan only if the recommended task needs one.
+4. **Offer the rest.** List at most three other things you can help with later, one line each, and ask what they would like to do. One of them can be: grow the list around the newsletter, with promo posts for an issue, a lead magnet, a welcome email, newsletter swaps or a first product (newsletter-advisor). If the team has saved its own skills (`list_skills`, visibility `workspace` or `private`, not `repo`), name them too, so the publisher can reuse them. Run nothing until they choose. Mention a paid plan only if the recommended task needs one.
